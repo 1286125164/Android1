@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp">
+       <ImageView
+           android:id="@+id/ico1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_margin="10dp"
+           android:src="@mipmap/rabbit"/>
+
+       <TextView
+           android:id="@+id/name1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:layout_toRightOf="@+id/ico1"
+           android:text="雪绒花"
+           android:textColor="#576b95" />
+
+       <TextView
+           android:id="@+id/content1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/name1"
+           android:layout_marginTop="5dp"
+           android:layout_marginBottom="5dp"
+           android:layout_toRightOf="@id/ico1"
+           android:minLines="3"
+           android:text="祝我的亲人和朋友身体健康！" />
+       <TextView
+           android:id="@+id/time1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/content1"
+           android:text="昨天"
+           android:layout_marginTop="3dp"
+           android:layout_toRightOf="@id/ico1"
+           android:textColor="#9a9a9a"
+           />
+
+       <ImageView
+           android:id="@+id/comment1"
+           android:layout_width="30dp"
+           android:layout_height="30dp"
+           android:layout_below="@id/content1"
+           android:layout_alignParentRight="true"
+           android:src="@mipmap/comment" />
+   </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/line"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <ImageView
+            android:id="@+id/ico2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="10dp"
+            android:src="@mipmap/rabbit"/>
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/ico2"
+            android:text="雷布斯"
+            android:textColor="#576b95" />
+
+        <TextView
+            android:id="@+id/content2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name2"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/ico2"
+            android:minLines="3"
+            android:text="除夕到，放鞭炮，家家户户好热闹；舞龙灯，踩高跷，合家欢乐步步高！眼看大年初一快来到，人人开心齐欢笑，提前祝你春节好，猪年祝福我最早！" />
+        <TextView
+            android:id="@+id/time2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/content2"
+            android:text="三天前"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/ico2"
+            android:textColor="#9a9a9a"
+            />
+
+        <ImageView
+            android:id="@+id/comment2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/content2"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/comment" />
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/line"/>
+</LinearLayout>

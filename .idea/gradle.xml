@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT" />
+        </compositeConfiguration>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AutoCompleteTextView" />
+            <option value="$PROJECT_DIR$/Gridlayout_demo" />
+            <option value="$PROJECT_DIR$/NestOfLayout" />
+            <option value="$PROJECT_DIR$/Rabbit_CustomClassDemo" />
+            <option value="$PROJECT_DIR$/RelativeLayout_demo" />
+            <option value="$PROJECT_DIR$/StatusSwitch" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/framelayout_demo" />
+            <option value="$PROJECT_DIR$/game" />
+            <option value="$PROJECT_DIR$/linearlayout_demo" />
+            <option value="$PROJECT_DIR$/loginbutton" />
+            <option value="$PROJECT_DIR$/mrnews" />
+            <option value="$PROJECT_DIR$/qqphoto" />
+            <option value="$PROJECT_DIR$/tableball" />
+            <option value="$PROJECT_DIR$/tablelayout_demo" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

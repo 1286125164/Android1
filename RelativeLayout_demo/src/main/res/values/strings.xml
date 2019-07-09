@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Update</string>
+    <string name="buttonText1">以后再说</string>
+    <string name="buttonText2">现在更新</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/img01"
+    tools:context=".MainActivity">
+    <!--添加一个居中显示的文本-->
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="发现有新本版，现在要更新吗？"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp" />
+    <!--添加一个按钮，该按钮与文本的右边界对齐-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonText1"
+        android:layout_alignRight="@id/text1"
+        android:id="@+id/button1"
+        android:layout_below="@id/text1"
+        />
+    <!--添加一个按钮在button1左侧显示-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:text="@string/buttonText2"
+        android:layout_toLeftOf="@id/button1"
+        android:layout_below="@id/text1"/>
+
+</RelativeLayout>

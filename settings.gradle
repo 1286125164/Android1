@@ -1,0 +1,1 @@
+include ':app', ':tableball', ':game', ':qqphoto', ':Rabbit_CustomClassDemo', ':RelativeLayout_demo', ':linearlayout_demo', ':framelayout_demo', ':tablelayout_demo', ':Gridlayout_demo', ':NestOfLayout', ':mrnews', ':loginbutton', ':AutoCompleteTextView', ':StatusSwitch', ':rediobutton'
